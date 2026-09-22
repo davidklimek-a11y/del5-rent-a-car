@@ -68,7 +68,7 @@ p{margin:0}
 .hero h1{font-size:clamp(3.1rem,1.4rem + 5.6vw,6rem);letter-spacing:-.045em;line-height:.94;max-width:12ch}
 html[lang=en] .hero h1{font-size:clamp(3rem,1.3rem + 5vw,5.5rem)}
 .hero .lead{margin-top:22px;font-size:clamp(1.15rem,1rem + .6vw,1.45rem);font-weight:600;line-height:1.4;color:var(--ink-2)}
-.hero .lead strong{font-weight:800;color:var(--ink)}
+.hero .lead strong{font-weight:800;color:var(--ink);white-space:nowrap}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
 .hero .facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin:30px 0 0;padding:0;list-style:none;font-weight:700;font-size:.95rem;color:var(--ink-2)}
 .hero .facts li{display:flex;align-items:center;gap:8px}
